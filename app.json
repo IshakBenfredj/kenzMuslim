@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "كنز المسلم",
+    "slug": "KenzMuslim",
+    "description": "تطبيق إسلامي يوفر القرآن الكريم كاملا , الأحاديث النبوية , الأذكار والأدعية والتسابيح",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/adaptive-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "www.kenzMuslim"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ishak_benfredj.KenzMuslim"
+    },
+    "web": {
+      "favicon": "./assets/adaptive-icon.png"
+    },
+    "updates": {
+      "useClassicUpdates": true
+    },    
+    "extra": {
+      "eas": {
+        "projectId": "103ba1c0-06bf-4df8-9f63-5c0057a5941e"
+      }
+    }
+  }
+}

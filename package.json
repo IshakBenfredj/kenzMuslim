@@ -1,0 +1,36 @@
+{
+  "name": "islam_app",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "build": "npm run build",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-seoul/masonry-list": "^1.4.2",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/native-stack": "^6.9.13",
+    "axios": "^1.5.0",
+    "expo": "~49.0.10",
+    "expo-app-loading": "^2.1.1",
+    "expo-font": "~11.4.0",
+    "expo-splash-screen": "~0.20.5",
+    "expo-status-bar": "~1.6.0",
+    "nativewind": "^2.0.11",
+    "react": "18.2.0",
+    "react-native": "0.72.5",
+    "react-native-reanimated": "~3.3.0",
+    "react-native-responsive-screen": "^1.4.2",
+    "tailwindcss": "^3.3.2",
+    "twrnc": "^3.6.4",
+    "expo-updates": "~0.18.16"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
